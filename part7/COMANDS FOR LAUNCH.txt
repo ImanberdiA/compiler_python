@@ -1,0 +1,5 @@
+1) Build syntax tree:
+python genptdot.py "((14 + 2) * 3) * 5 - 6/(2+5)*(10+8)/(5+4*8)*5" > parsetree.dot && dot -Tpng -o parsetree.png parsetree.dot
+
+2) Build AST:
+python genastdot.py "((14 + 2) * 3) * 5 - 6/(2+5)*(10+8)/(5+4*8)*5" > ast.dot && dot -Tpng -o ast.png ast.dot

@@ -1,0 +1,3 @@
+Command to build a symbol table and process the program:
+
+python spi.py part11.pas

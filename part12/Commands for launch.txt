@@ -1,0 +1,7 @@
+1) Let’s generate an AST and visualize it with the genastdot.py utility:
+
+python genastdot.py part12.pas > ast.dot && dot -Tpng -o ast.png ast.dot
+
+2) Run code of part12.pas
+
+python spi.py part12.pas

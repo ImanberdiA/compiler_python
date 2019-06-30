@@ -1,0 +1,2 @@
+Generate an AST for part10ast.pas:
+python genastdot.py part10ast.pas > ast.dot && dot -Tpng -o ast.png ast.dot
